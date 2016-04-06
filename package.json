@@ -1,0 +1,18 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "takes in language and returns the information asked for",
+  "main": "LIRI.js",
+  "dependencies": {
+    "omdb": "^0.5.0",
+    "request": "^2.69.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node liri.js my-tweets"
+  },
+  "author": "Jacob Deming",
+  "license": "ISC"
+}
